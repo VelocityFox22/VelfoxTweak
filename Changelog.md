@@ -20,7 +20,17 @@ All notable changes to Velfox Tweaks are documented in this file.
 - Refactored the overall script structure for improved maintainability, readability, and execution clarity.
 - Corrected typographical issues and removed redundant or duplicated code segments.
 
+- Daemon engine optimized:
+  - Improved daemon execution speed and responsiveness.
+  - Reduced loop latency and unnecessary polling cycles.
+  - Optimized task scheduling logic for better runtime efficiency.
+  - Lowered resource footprint while maintaining aggressive performance tuning.
+  - Increased overall effectiveness of background monitoring and enforcement.
+
+  These improvements significantly enhance daemon stability, reduce overhead during continuous operation, and ensure faster application of performance profiles.
+
 ### Changes
+
 - Renamed operational modes:
   - Apex → Esport
   - Adaptive → Balanced
@@ -28,6 +38,7 @@ All notable changes to Velfox Tweaks are documented in this file.
   The updated naming improves clarity and better reflects the purpose of each performance profile.
 
 ### Stability and Compatibility
+
 - Reduced unnecessary kernel write operations.
 - Lowered background I/O overhead.
 - Improved cross-SoC compatibility and overall daemon reliability.
